@@ -117,3 +117,23 @@ Route::get('/about', function () {
     return view('pages/about');
     
 });
+Route::get('/career', function () {
+    return view('pages/career');
+    
+});
+Route::get('/find-job', function () {
+    return view('pages/find-job');
+    
+});
+Route::get('/find-work', function () {
+    return view('pages/find-work');
+    
+});
+Route::get('/study-material', function () {
+    return view('pages/study-material');
+    
+});
+Route::get('/about', function () {
+    return view('pages/about');
+    
+});

@@ -10,4 +10,17 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    var chat_disp=0;
+   function popchat() {
+    if(chat_disp==0)
+    {
+  document.getElementById("chatbox").style.display = "block";
+  chat_disp=1;
+   }
+  else
+  {
+    document.getElementById("chatbox").style.display = "none";
+    chat_disp=0;
+  }
+}
   </script>
