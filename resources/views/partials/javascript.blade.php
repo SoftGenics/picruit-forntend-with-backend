@@ -10,4 +10,33 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
+    var chat_disp=0;
+   function popchat() {
+    if(chat_disp==0)
+    {
+  document.getElementById("chatbox").style.display = "block";
+  chat_disp=1;
+   }
+  else
+  {
+    document.getElementById("chatbox").style.display = "none";
+    chat_disp=0;
+  }
+}
+ $(document).on("click", ".naccs .menu div", function() {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+          $(".naccs .menu div").removeClass("active");
+          $(".naccs ul li").removeClass("active");
+
+          $(this).addClass("active");
+          $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+          var listItemHeight = $(".naccs ul")
+            .find("li:eq(" + numberIndex + ")")
+            .innerHeight();
+          $(".naccs ul").height(listItemHeight + "px");
+        }
+    });
   </script>

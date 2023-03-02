@@ -8,10 +8,10 @@
             </div>
             <a href="#">info@company.com</a>
             <ul>
-              <li><a href="#"><i class="bi bi-facebook" ></i></a></li>
-              <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+              <li><a href="https://www.facebook.com/pioneeracademyldh?mibextid=ZbWKwL" style="background-color:rgb(27 127 204 / 80%);"><i class="bi bi-facebook" ></i></a></li>
+              <li><a href="https://www.linkedin.com/in/pioneer-academy-595885264" style="background-color:rgb(27 127 204);"><i class="bi bi-Linkedin"></i></a></li>
               
-              <li><a href="#"><i class="bi bi-instagram"></i></i></a></li>
+              <li><a href="https://instagram.com/pioneerldh?igshid=ZDdkNTZiNTM=" style="background-color: #ff002d"><i class="bi bi-instagram"></i></i></a></li>
             </ul>
           </div>
         </div>
@@ -30,7 +30,7 @@
           <div class="community footer-item">
             <h4>Community</h4>
             <ul>
-              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Carrer advice</a></li>
               <li><a href="#">Business Ideas</a></li>
               <li><a href="#">Website Checkup</a></li>
               <li><a href="#">Page Speed Test</a></li>
@@ -39,8 +39,8 @@
         </div>
         <div class="col-lg-3">
           <div class="subscribe-newsletters footer-item">
-            <h4>Subscribe Newsletters</h4>
-            <p>Get our latest news and ideas to your inbox</p>
+            <h4>Subscribe to Pircuit newsletters</h4>
+            <p>Get our latest jobs posted,candidates and others about latest news to stay updated</p>
             <form action="#" method="get">
               <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email" required="">
               <button type="submit" id="form-submit" class="main-button "><i class="fa fa-paper-plane-o"></i></button>

@@ -1,14 +1,14 @@
 @extends ('layouts.app')
 @section('content')
-
+<style> @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');</style>
 <div class="main-banner"  data-aos="fade-down-right" data-aos-delay="50"
     data-aos-duration="1000" style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,89,33,1) 35%, rgba(19,153,63,1) 96%);">
     <nav class="social-nav">
       <ul>
-        <li class="snav"><a href="https://www.facebook.com/profile.php?id=100013741391986&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
-        <li class="snav"><a href="https://instagram.com/pioneerldh?igshid=ZDdkNTZiNTM="><i class="bi bi-twitter"></i></a></li>
-        {{-- <li class="snav"><a href="#"><i class="bi bi-instagram"></i></a></li> --}}
+        <li class="snav"><a href="https://www.facebook.com/pioneeracademyldh?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
         <li class="snav"><a href="https://www.linkedin.com/in/pioneer-academy-595885264"><i class="bi bi-linkedin"></i></a></li>
+        {{-- <li class="snav"><a href="#"><i class="bi bi-instagram"></i></a></li> --}}
+        <li class="snav"><a href="https://instagram.com/pioneerldh?igshid=ZDdkNTZiNTM="><i class="bi bi-instagram"></i></a></li>
         
       </ul>
     </nav>
@@ -151,6 +151,269 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
       </div>
     </div>
   </div>
+  <div id="portfolio" class="our-portfolio section">
+    {{-- <div class="portfolio-left-dec">
+      <img src="assets/images/portfolio-left-dec.png" alt="">
+    </div> --}}
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2 style="font-family: 'Bad Script', cursive;font-size:56px;">Learning &nbsp<em>Tree</em> </h2>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-portfolio">
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a rel="sponsored" href="https://templatemo.com/tm-564-plot-listing" target="_parent"><h4>First Project</h4></a>
+                    <span>Plot Listing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Project Two</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a rel="sponsored" href="https://templatemo.com/tm-562-space-dynamic" target="_parent"><h4>Third Project</h4></a>
+                    <span>Space Dynamic SEO</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Project Four</h4></a>
+                    <span>Website Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Fifth Project</h4></a>
+                    <span>Digital Assets</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Sixth Project</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>7th Project</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>8th Project</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>9th Project</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Project Ten</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>Project Eleven</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="thumb">
+                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <div class="hover-effect">
+                  <div class="inner-content">
+                    <a href="#"><h4>12th Project</h4></a>
+                    <span>SEO &amp; Marketing</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="video" class="our-videos section">
+    <div class="videos-left-dec">
+      <img style="filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(393%) hue-rotate(100deg) brightness(87%) contrast(84%);" src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/videos-left-dec.png" alt="">
+    </div>
+    <div class="videos-right-dec">
+      <img style="filter: brightness(0) saturate(100%) invert(39%) sepia(99%) saturate(393%) hue-rotate(100deg) brightness(87%) contrast(84%);" src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/videos-right-dec.png" alt="">
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-8">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/JynGuQx4a1Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>Project One</h4></a>
+                            <span>SEO &amp; Marketing</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/RdJBSFpcO4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>Second Project</h4></a>
+                            <span>Advertising &amp; Marketing</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/ZlfAjbQiL78" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>Project Three</h4></a>
+                            <span>Digital &amp; Marketing</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <iframe width="100%" height="auto" src="https://www.youtube.com/embed/mx1WseE7-0Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          <div class="overlay-effect">
+                            <a href="#"><h4>Fourth Project</h4></a>
+                            <span>SEO &amp; Advertising</span>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <div class="menu">
+                    <div class="active">
+                      <div class="thumb">
+                        <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/video-thumb-01.png" alt="">
+                        <div class="inner-content">
+                          <h4>Project One</h4>
+                          <span>SEO &amp; Marketing</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/video-thumb-02.png" alt="">
+                        <div class="inner-content">
+                          <h4>Second Project</h4>
+                          <span>Advertising &amp; Marketing</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/video-thumb-03.png" alt="Marketing">
+                        <div class="inner-content">
+                          <h4>Project Three</h4>
+                          <span>Digital &amp; Marketing</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">
+                        <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/video-thumb-04.png" alt="SEO Work">
+                        <div class="inner-content">
+                          <h4>Fourth Project</h4>
+                          <span>SEO &amp; Advertising</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>             
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
    <div id="contact" class="contact-us section">
     <div class="container">
       <div class="row">
@@ -161,8 +424,9 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
               <iframe src="https://maps.google.com/maps?q=Av.+L%C3%BAcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="360px" frameborder="0" style="border:0" allowfullscreen=""></iframe>
             </div>
             <div class="info">
-              <span><i class="fa fa-phone"></i> <a href="#">010-020-0340<br>090-080-0760</a></span>
-              <span><i class="fa fa-envelope"></i> <a href="#">info@company.com<br>mail@company.com</a></span>
+              <span><i class="fa fa-phone"></i> <a href="#">+919878865747
+<br></a></span>
+              <span><i class="fa fa-envelope"></i> <a href="#">pioneerfoundationldh@gmail.com<br></a></span>
             </div>
           </div>
         </div>
