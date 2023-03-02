@@ -45,8 +45,20 @@ Route::get('/logout', 'LogoutController@perform')->name('logout.now');
         
 
     });
-    
-    
+    // tutor user dashboard files route file located in tutor folder
+    Route::get('/profile', function () {
+        return view('tutor/user_profile');
+    });
+    Route::get('/upgrade', function () {
+        return view('tutor/upgrade');
+    });
+    Route::get('/analytics', function () {
+        return view('tutor/analytics');
+    });
+    Route::get('/refferal', function () {
+        return view('tutor/refferal');
+    });
+    //tutor route ends
     Route::get('/signup',function () {
         return view('pages/signup');
     });

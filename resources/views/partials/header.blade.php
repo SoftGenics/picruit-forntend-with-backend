@@ -69,7 +69,7 @@
                   <li class="scroll-to-section"><a href="blog" style="font-size: 18px;color#363637;font-weight:bold;">Blog</a></li> 
                    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" style="font-size: 18px;color:#000000 ;font-weight:bold;" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-         Contact
+         Reach us
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" href="#contact" style="color:black;">Contact us</a>
@@ -82,7 +82,7 @@
               
         </div>
       </li>
-                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signin') }}" style="font-size: 18px;color: #62646a;">Sign in</a></div></li>
+                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('login') }}" style="font-size: 18px;color: #62646a;">Sign in</a></div></li>
                <li class="scroll-to-section"><div class="main-red-button-hover"><a href="{{ url('signup') }}" style="font-size: 18px;color: #62646a;">Sign up</a></div></li>
         <li class="nav-item ">
         
