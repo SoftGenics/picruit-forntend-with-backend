@@ -23,7 +23,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <!--  CSS Files -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/fontawesome.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SoftGenics/picruit-forntend-with-backend@882324b54427d2aa306c9cfbfb31eb8e3a6c4140/public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/animated.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/owl.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

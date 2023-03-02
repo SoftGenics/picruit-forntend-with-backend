@@ -133,7 +133,7 @@
                     <div class="form-check"><label class="form-check-label"><input class="form-check-input" type="checkbox">I agree to the license terms.</label></div>
                 </div>
 				
-                <div class="form-group"><button class="btn btn-primary btn-block" type="submit">Sign in</button></div><a href="signup" class="already">Don't have an account? Signup here.</a></form>
+                <div class="form-group"><button class="btn btn-success btn-block" type="submit">Sign in</button></div><a href="signup" class="already" style="color:green;">Don't have an account? Signup here.</a></form>
         </div>
     </div>
 @stop
