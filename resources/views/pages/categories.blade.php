@@ -203,7 +203,7 @@
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
               <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="">
-                <!-- Social Info-->
+                <!-- Social InfoCV-->
                
               </div>
               <!-- Team Details-->
@@ -218,7 +218,7 @@
             <div class="col-12 col-sm-6 col-lg-3">
             <div class="single_advisor_profile wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
               <!-- Team Thumb-->
-              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt="">
+              <div class="advisor_thumb"><img src="https://bootdey.com/img/Content/avatar/avatar6.png" alt=" IMAGE">
                 <!-- Social Info-->
                
               </div>
