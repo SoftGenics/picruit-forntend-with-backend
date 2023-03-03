@@ -17,19 +17,18 @@
     
     <link href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/bootstrap.min.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="http://demo.itsolutionstuff.com/plugin/bootstrap-3.min.css">
-    <script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
     <!--  CSS Files -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/fontawesome.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/SoftGenics/picruit-forntend-with-backend@882324b54427d2aa306c9cfbfb31eb8e3a6c4140/public/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/animated.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/css/owl.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      
+   
 <style>
 
 .btn-primary{
@@ -90,7 +89,9 @@
 .social-nav .snav:nth-child(4) a{
   background: #2867B2;
 }
-
+footer .footer-item ul li a svg{
+    margin-top:6px;
+}
 .social-nav .snav a i{
       position: absolute;
     top: 14px;
