@@ -417,29 +417,29 @@ footer{
         <span class="opt-val">student</span>
       </div>
       <div class="option">
-        <input class="s-c top" type="radio" name="platform" value="">
-        <input class="s-c bottom" type="radio" name="platform" value="">
+        <input class="s-c top" type="radio" id="ck"name="platform" value="">
+        <input class="s-c bottom" type="radio" id="ck"name="platform" value="">
         <i class="fas fa-chalkboard-teacher"></i>
         <span class="label">Teacher</span>
         <span class="opt-val">Teacher</span>
       </div>
       <div class="option">
-        <input class="s-c top" type="radio" name="platform" value="">
-        <input class="s-c bottom" type="radio" name="platform" value="">
+        <input class="s-c top" type="radio" id="ck"name="platform" value="">
+        <input class="s-c bottom" type="radio" id="ck"name="platform" value="">
         <i class="fas fa-child"></i>
         <span class="label">Freelacer</span>
         <span class="opt-val">Freelacer</span>
       </div>
       <div class="option">
-        <input class="s-c top" type="radio" name="platform" value="">
-        <input class="s-c bottom" type="radio" name="platform" value="">
+        <input class="s-c top" type="radio" id="ck"name="platform" value="">
+        <input class="s-c bottom" type="radio" id="ck"name="platform" value="">
         <i class="fas fa-id-card "></i>
         <span class="label">Employer</span>
         <span class="opt-val">Employer</span>
       </div>
       <div class="option">
-        <input class="s-c top" type="radio" name="platform" value="">
-        <input class="s-c bottom" type="radio" name="platform" value="">
+        <input class="s-c top" type="radio" id="ck" name="platform" value="">
+        <input class="s-c bottom" type="radio" id="ck"name="platform" value="">
         <i class="fas fa-address-card"></i>
         <span class="label">Job seeker</span>
         <span class="opt-val">Job seeker</span>
@@ -450,5 +450,13 @@ footer{
   </div>
 </form>
       </div>
-      
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+        $("input[name='platform']").click(function () {
+             var radioButton = document.getElementById("options-view-button");
+        radioButton.checked = false;
+        });
+    });
+    </script>
       @stop

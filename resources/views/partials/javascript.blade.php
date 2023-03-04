@@ -8,6 +8,8 @@
   <script src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/js/custom.js"></script>
  
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
   <script>
     AOS.init();
     var chat_disp=0;
@@ -39,4 +41,15 @@
           $(".naccs ul").height(listItemHeight + "px");
         }
     });
+    VANTA.TOPOLOGY({
+  el: "#vantabck",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  
+})
   </script>

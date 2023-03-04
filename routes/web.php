@@ -72,6 +72,9 @@ Route::get('/logout', 'LogoutController@perform')->name('logout.now');
         
     });
     //tutor route ends
+    Route::get('/category',function () {
+        return view('pages/categories');
+    });
     Route::get('/signup',function () {
         return view('pages/signup');
     });

@@ -19,7 +19,7 @@
            
             <div class="container-fluid">
                <div class="row">
-<div class="col-lg-3 col-xlg-2 col-md-5">
+                 <div class="col-lg-3 col-xlg-2 col-md-5">
                         <div class="card">
                             <div class="card-body">
                                 <center class="m-t-30"> <h1 class="card-title pricing-card-title" style="font-size: 42px;">$50 <small class="text-muted">/ mo</small></h1>
