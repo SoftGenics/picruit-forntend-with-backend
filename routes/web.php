@@ -58,6 +58,19 @@ Route::get('/logout', 'LogoutController@perform')->name('logout.now');
     Route::get('/refferal', function () {
         return view('tutor/refferal');
     });
+    Route::get('/media', function () {
+        return view('tutor/media');
+    });
+    Route::get('/chat', function () {
+        return view('tutor/chat');
+    });
+    Route::get('/slist', function () {
+        return view('tutor/studentlist');
+    });
+    Route::get('/tutors', function () {
+        return view('pages/browse-tutor');
+        
+    });
     //tutor route ends
     Route::get('/signup',function () {
         return view('pages/signup');
