@@ -1,29 +1,6 @@
-
-
-<link rel="stylesheet" href="http://demo.itsolutionstuff.com/plugin/bootstrap-3.min.css">
-<script src="http://demo.itsolutionstuff.com/plugin/jquery.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
-      
-         <script src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.js"></script>  
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.css">   
-  
-@if(Session::has('users'))  
-@php
-$users =Session::get('users');   
-@endphp 
-@else
-@include('pages.signin')
-@endif
-
- 
-              
 @extends ('layouts.user')
 @section('content')
-
-
 <div class="page-wrapper">
-   
          
             <div class="page-breadcrumb">
                 <div class="row align-items-center">
@@ -35,8 +12,6 @@ $users =Session::get('users');
                             </ol>
                           </nav>
                         <h1 class="mb-0 fw-bold">Dashboard </h1> 
-                        
-                        @include('sweet::alert')
                     </div>
                     <div class="col-6">
                         
@@ -48,12 +23,109 @@ $users =Session::get('users');
                 <!-- ============================================================== -->
                 <!-- Start Page Content -->
                 <!-- ============================================================== -->
+                <div class="card-group">
+                <!-- Column -->
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h4 class="text-center text-primary">Unique Visit</h4>
+                    <h2>1200</h2>
+                    <div class="row pt-2 pb-2">
+                      <!-- Column -->
+                      <div class="col text-center align-self-center">
+                        <div data-label="20%" class="css-bar mb-0 css-bar-primary css-bar-20">
+                          <i class="display-8 bi bi-person-circle"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-6 border-end">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="ri-arrow-up-s-line fs-6 text-success"></i>
+                          <br>
+                          12056
+                        </h4>
+                      </div>
+                      <div class="col-6">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="ri-arrow-down-s-line fs-6 text-danger"></i>
+                          <br>
+                          145
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+                <!-- Column -->
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h4 class="text-center text-danger">Total Visit</h4>
+                    <h2>1200</h2>
+                    <div class="row pt-2 pb-2">
+                      <!-- Column -->
+                      <div class="col text-center align-self-center">
+                        <div data-label="20%" class="css-bar mb-0 css-bar-danger css-bar-20">
+                          <i class="display-8 ri-star-line"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-6 border-end">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="fs-6 ri-arrow-up-s-line text-success"></i>
+                          <br>
+                          21456
+                        </h4>
+                      </div>
+                      <div class="col-6">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="fs-6 ri-arrow-down-s-line text-danger"></i>
+                          <br>
+                          145
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+                <!-- Column -->
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h4 class="text-center text-cyan">Bounce rate</h4>
+                    <h2>1200</h2>
+                    <div class="row pt-2 pb-2">
+                      <!-- Column -->
+                      <div class="col text-center align-self-center">
+                        <div data-label="20%" class="css-bar mb-0 css-bar-success css-bar-20">
+                          <i class="display-8 bi bi-bag-check-fill"></i>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row mt-3">
+                      <div class="col-6 border-end">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="fs-6 ri-arrow-up-s-line text-success"></i>
+                          <br>
+                          12465
+                        </h4>
+                      </div>
+                      <div class="col-6">
+                        <h4 class="font-weight-medium mb-0">
+                          <i class="fs-6 ri-arrow-down-s-line text-danger"></i>
+                          <br>
+                          145
+                        </h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Column -->
+              </div>
                 <div class="row">
                     <div class="col-12">
                         <div class="card">
                             <div class="card-body">
                                 <h4 class="card-title">Teachers</h4>
-                               
                             </div>
                             <div class="comment-widgets scrollable">
                                 <!-- Comment Row -->

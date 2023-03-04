@@ -1,8 +1,9 @@
 @extends ('layouts.app')
 @section('content')
 <style> @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');</style>
-<div class="main-banner"  data-aos="fade-down-right" data-aos-delay="50"
-    data-aos-duration="1000" style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,89,33,1) 35%, rgba(19,153,63,1) 96%);">
+<div class="main-banner" id="vantabck" data-aos="fade-down-right" data-aos-delay="50"
+    data-aos-duration="1000" >
+    {{-- style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,89,33,1) 35%, rgba(19,153,63,1) 96%);" --}}
     <nav class="social-nav">
       <ul>
         <li class="snav"><a href="https://www.facebook.com/pioneeracademyldh?mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a></li>
