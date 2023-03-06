@@ -1,6 +1,126 @@
 @extends ('layouts.app')
 @section('content')
-<style> @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');</style>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+<style> @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+.demo{ background: #f8f7f6; }
+#testimonial-slider{
+    padding: 50px 20px 35px 20px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
+}
+.testimonial .description{
+    font-size: 14px;
+    color: #777;
+    line-height: 26px;
+    text-indent: 30px;
+    position: relative;
+}
+.testimonial .description:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 0;
+    left: -15px;
+}
+.testimonial .title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #363636;
+    text-transform: capitalize;
+    margin: 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 15px;
+    color: #363636;
+}
+.owl-buttons{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+}
+.owl-prev,
+.owl-next{
+    position: absolute;
+    left: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.owl-next{
+    left: auto;
+    right: 0;
+}
+.owl-buttons .owl-prev:before,
+.owl-buttons .owl-next:before{
+    content: "\f104";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 60px;
+    font-weight: 900;
+    color: #cacaca;
+    line-height: 20px;
+    opacity: 0.8;
+}
+.owl-buttons .owl-next:before{
+    content: "\f105";
+}
+.owl-buttons .owl-prev:hover:before,
+.owl-buttons .owl-next:hover:before{
+    opacity: 1;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    background: transparent;
+}
+.owl-theme .owl-controls{
+    margin-top: 40px;
+}
+.owl-theme .owl-controls .owl-page span{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-3.jpg") no-repeat;
+    background-size: cover;
+    transition: all 0.3s ease-in-out 0s;
+}
+.owl-theme .owl-controls .owl-page:nth-child(2) span{
+    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-1.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls .owl-page:nth-child(3) span{
+    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-2.jpg") no-repeat;
+    background-size: cover;
+}
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+    opacity: 0.5;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls .owl-page.active:hover span{
+    border-color: #d133ff;
+    opacity: 1;
+}
+@media only screen and (max-width: 479px){
+    .owl-buttons{ bottom: 30%; }
+}
+.drops{
+    position: relative;
+    left: 0;
+    z-index: 1;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 0px 0px 5px;
+    font-size: 18px;
+    text-align: center;
+    list-style: none;
+    background-color: #f2f6f3;;
+    background-clip: padding-box;
+    border-radius: 5px;
+}
+</style>
 <div class="main-banner" id="vantabck" data-aos="fade-down-right" data-aos-delay="50"
     data-aos-duration="1000" >
     {{-- style="background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(5,89,33,1) 35%, rgba(19,153,63,1) 96%);" --}}
@@ -24,22 +144,37 @@
                   <h2 class="title-ban"style="color: white; font-weight:bolder;">PIONEER 
 {{-- <span>...</span>..... --}}
 </h2>
-                  <p ><h3 ><em style="font-weight:bolder;
+                  {{-- <p ><h3 ><em style="font-weight:bolder;
     font-family: monospace;">Register for</em></h3>
-    <h4 style="font-family: cursive;line-height: 1.5;color: white; font-weight:bolder;">
+    <h4 style="line-height: 1.5;color: white; font-weight:bolder;">
 HR Services & Placements,
 Freelancing work,<br>
 Tuitions-Online/offline Batches,<br>
 GATE/IES/JE/SDE,<br>UGC/IAS/PCS,<br>
-11th/12th/ IIT- JEE/NEET/CA,</h4>
-<h3 style="color: white;"><span><b>UNDER RENOVATION. 
-WILL BE BACK LIVE FROM 1 MARCH 2023<b> </span><span>	&#128197;</span></h3></p>
-                  <div class="down-buttons">
-                    <div class="main-blue-button-hover">
+11th/12th/ IIT- JEE/NEET/CA,</h4> --}}
+<h3 style="color: white;"><span><b>Hire the best services and freelancers<b> </span><span>	</span></h3></p>
+      <div class="down-buttons">
+             
+                    {{-- <div class="main-blue-button-hover">
                       <a href="href="{{ url('signup') }}"">Join now</a>
-                    </div>
-                  
+                    </div> --}}
+                  <details class="dropdown">
+            <summary role="button">
+                   <a class="button btn btn-warning dropdown-toggle">Post job / Teacher requirment</a>
+             </summary>
+              <ul class="drops">
+               <li><a href="#" style="color:green">Post work</a></li>
+                <div class="dropdown-divider"></div>
+                <li><a href="#" style="color:green">Post Tutor Request</a></li>
+                 <div class="dropdown-divider"></div>
+                 <li><a href="find-work" style="color:green">Find work</a></li>
+                  <div class="dropdown-divider"></div>
+                  <li><a href="#" style="color:green">Connect Tutor</a></li>
+                 
+              </ul>
+                      </details>
                   </div>
+                  <h3>ONLINE AND OFFLINE</h3>
                 </div>
              
               </div>
@@ -305,6 +440,43 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
           </div>
         </div>
       </div>
+    </div>
+  </div>
+  <div id="pricing" class="pricing-tables">
+   
+    <div class="demo">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-2 col-md-8 ">
+                <div id="testimonial-slider" class="owl-carousel">
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                        </p>
+                        <h3 class="title">williamson</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                        </p>
+                        <h3 class="title">Kristina</h3>
+                        <span class="post">Web Designer</span>
+                    </div>
+ 
+                    <div class="testimonial">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus molestie, justo nec convallis sollicitudin, sapien lorem dictum lacus, non consequat odio ipsum nec est. Sed mattis egestas elementum. Nulla facilisi. Quisque placerat risus ac nunc ornare tincidunt. Sed quis faucibus nunc. Pellentesque accumsan arcu mi, eget venenatis mauris.
+                        </p>
+                        <h3 class="title">Miranda Joy</h3>
+                        <span class="post">Web Developer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     </div>
   </div>
     <div id="video" class="our-videos section">
