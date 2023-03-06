@@ -67,11 +67,28 @@ Route::get('/logout', 'LogoutController@perform')->name('logout.now');
     Route::get('/slist', function () {
         return view('tutor/studentlist');
     });
+    Route::get('/cont', function () {
+        return view('tutor/contact');
+    });
     Route::get('/tutors', function () {
         return view('pages/browse-tutor');
         
     });
     //tutor route ends
+    //student route begins
+    Route::get('/insight', function () {
+        return view('student/analytics');
+    });
+    Route::get('/srefer', function () {
+        return view('student/refferal');
+    });
+    Route::get('/scontact', function () {
+        return view('student/contact');
+    });
+    Route::get('/sprofile', function () {
+        return view('student/user_profile');
+    });
+    //ends
     Route::get('/category',function () {
         return view('pages/categories');
     });
