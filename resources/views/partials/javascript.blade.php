@@ -54,10 +54,12 @@
 })
 $(document).ready(function(){
     $("#testimonial-slider").owlCarousel({
+      loop:true,
         items:1,
         itemsDesktop:[1000,1],
         itemsDesktopSmall:[979,1],
         itemsTablet:[768,1],
+        nav:true,
         pagination:true,
         navigation:true,
         navigationText:["",""],

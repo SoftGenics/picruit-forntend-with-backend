@@ -4,13 +4,54 @@
 <style> @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 .demo{ background: #f8f7f6; }
 #testimonial-slider{
-    padding: 50px 20px 35px 20px;
+  padding: 98px 39px 37px 24px;
     background: #fff;
     text-align: center;
-    box-shadow: 0 0 115px 19px rgba(236, 236, 236, 1);
+    box-shadow: 0 0 115px 19px rgb(236 236 236);
+    border-radius: 15px;
 }
+#testimonial-slider
+  .owl-nav .owl-prev  {
+    width: 46px;
+    height: 46px;
+    background-color: #198754;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    color: #fff;
+    content: '\f104';
+    font-size: 22px;
+    font-family: 'FontAwesome';
+    transition: all .5s;
+     opacity: 0.5;
+}
+#testimonial-slider
+         .owl-nav .owl-next {
+    width: 46px;
+    height: 46px;
+    background-color: #198754;
+    display: inline-block;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 50%;
+    color: #fff;
+    content: '\f105';
+    font-size: 22px;
+    font-family: 'FontAwesome';
+    transition: all .5s;
+    opacity: 0.5;
+}
+#testimonial-slider
+         .owl-nav .owl-next:hover {
+         opacity:1
+         }
+        #testimonial-slider
+  .owl-nav .owl-prev:hover {
+         opacity:1
+         }
 .testimonial .description{
-    font-size: 14px;
+    font-size: 24px;
     color: #777;
     line-height: 26px;
     text-indent: 30px;
@@ -62,7 +103,7 @@
     font-weight: 900;
     color: #cacaca;
     line-height: 20px;
-    opacity: 0.8;
+    opacity: 1;
 }
 .owl-buttons .owl-next:before{
     content: "\f105";
@@ -82,16 +123,16 @@
     height: 50px;
     border-radius: 50%;
     border: 4px solid #ccc;
-    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-3.jpg") no-repeat;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_q3zNM_dIG78YnvVRSZdvRm8h0UcFn5sFPw&usqp=CAU") no-repeat;
     background-size: cover;
     transition: all 0.3s ease-in-out 0s;
 }
 .owl-theme .owl-controls .owl-page:nth-child(2) span{
-    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-1.jpg") no-repeat;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2WtP8bzmRVj2uceNb_HkZzKiZKASDtzhlwQ&usqp=CAU") no-repeat;
     background-size: cover;
 }
 .owl-theme .owl-controls .owl-page:nth-child(3) span{
-    background: url("	https://bestjquery.com/tutorial/testimonial/demo59/images/img-2.jpg") no-repeat;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq0RlGJVa8AAceIGHdtbesX17dsU49HwjYPg&usqp=CAU") no-repeat;
     background-size: cover;
 }
 .owl-theme .owl-controls.clickable .owl-page:hover span{
@@ -207,22 +248,22 @@ GATE/IES/JE/SDE,<br>UGC/IAS/PCS,<br>
     >
               <h4>For freelancers</h4>
               <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/freelancer.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>The ultimate online destination for freelancers of all kinds.</p>
             </div>
             <div class="item" data-aos="fade-left" data-aos-delay="50" data-aos-duration="800" >
               <h4>Teachers</h4>
               <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/teacher.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Learn, teach and grow with the online community of tutors.</p>
             </div>
             <div class="item"  data-aos="fade-right" data-aos-delay="50" data-aos-duration="800">
               <h4>Search jobs</h4>
               <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/job.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>The online platform that connects job seekers and employers in a fast and easy way.</p>
             </div>
             <div class="item"  data-aos="fade-left" data-aos-delay="50" data-aos-duration="800">
               <h4>Students</h4>
               <div class="icon"><img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/students.png" alt=""></div>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>The best tutors for your academic success.</p>
             </div>
             
           </div>
@@ -307,10 +348,10 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
           <div class="owl-carousel owl-portfolio">
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <img src="https://www.gpb.org/sites/default/files/styles/flexheight/public/blogs/images/2014/08/09/parent-teacher.jpg?itok=NI719AUo" alt="" style="width:438px;height:604px;">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a rel="sponsored" href="https://templatemo.com/tm-564-plot-listing" target="_parent"><h4>First Project</h4></a>
+                    <a rel="sponsored" href="#" target="_parent"><h4>First Project</h4></a>
                     <span>Plot Listing</span>
                   </div>
                 </div>
@@ -318,7 +359,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVmd-JNnNCyNgB9mJm1lC5TPqao9J4YsksPAJkdIuOvYIN8hfO5PwQ0Ez3aTKRqQuWYx4&usqp=CAU"style="width:438px;height:604px;" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Project Two</h4></a>
@@ -329,10 +370,10 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2nLpC1IwQ8KCpQ-ecE8YCjNu8T0-mbucueQ&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
-                    <a rel="sponsored" href="https://templatemo.com/tm-562-space-dynamic" target="_parent"><h4>Third Project</h4></a>
+                    <a rel="sponsored" href="#" target="_parent"><h4>Third Project</h4></a>
                     <span>Space Dynamic SEO</span>
                   </div>
                 </div>
@@ -340,7 +381,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSRR8bzpJNcuNJgTqKikUA87i1S_ST6Q_d6w&usqp=CAU"style="width:438px;height:604px;" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Project Four</h4></a>
@@ -351,7 +392,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0VUEicTTbf7VRtmAHHtvLOh5a0uw6gT9RGmJd-6FXP2krwJ2WxvhsRErW8_sUf7idVpw&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Fifth Project</h4></a>
@@ -362,7 +403,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIFxI3jt2Wjn4d3wwtYuNDSdPBhdXcl5sceg&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Sixth Project</h4></a>
@@ -373,7 +414,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrjLqudDuGd3_aVAefDBVo0Fk4q8iiLilGyA&usqp=CAU"  style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>7th Project</h4></a>
@@ -384,7 +425,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy5vUUHKA0-cRhQsn41v1S-Xtds9F3M3_Qag&usqp=CAU"style="width:438px;height:604px;" alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>8th Project</h4></a>
@@ -395,7 +436,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-01.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGX-xFeXXrOaF_da1Rv5_0R1tGMdFFwGSsJZk7mPdsBwzIJkIpcqW0VsF5W3jCmdVsqoY&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>9th Project</h4></a>
@@ -406,7 +447,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-02.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp9psuJxAOcUYTxF9i3LdCHkkTzdFKiCw_XQ&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Project Ten</h4></a>
@@ -417,7 +458,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-03.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK3aHkyIkdPy0ca2KyW2c6z1HQP4Ug76OOTA&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>Project Eleven</h4></a>
@@ -428,7 +469,7 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
             </div>
             <div class="item">
               <div class="thumb">
-                <img src="https://cdn.jsdelivr.net/gh/THUNDERSAMA/intern-p1@fcc47ec99110eb75607a65b3c10569c346d1a67f/public/images/portfolio-04.jpg" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5iRbDLnHo6obReU3x0tP8oAdHxpyxgjyfuw&usqp=CAU" style="width:438px;height:604px;"alt="">
                 <div class="hover-effect">
                   <div class="inner-content">
                     <a href="#"><h4>12th Project</h4></a>
@@ -446,6 +487,14 @@ molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum</p>
    
     <div class="demo">
     <div class="container">
+     <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="section-heading">
+            <h2>What <em>people</em> speak about <span>us...</span></h2>
+            <span>Our Ratings and reviews</span>
+          </div>
+        </div>
+      </div>
         <div class="row">
             <div class="col-md-offset-2 col-md-8 ">
                 <div id="testimonial-slider" class="owl-carousel">
